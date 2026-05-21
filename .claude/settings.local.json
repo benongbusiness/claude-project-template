@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(pytest:*)",
+      "Bash(pip:*)",
+      "Bash(cat:*)",
+      "Bash(ls:*)",
+      "Bash(mv:*)",
+      "Bash(cp:*)",
+      "Bash(mkdir:*)"
+    ],
+    "deny": [
+      "Bash(rm -rf:*)",
+      "Bash(curl:*)",
+      "Bash(wget:*)"
+    ]
+  }
+}
